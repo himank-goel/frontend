@@ -21,9 +21,6 @@
   font-size:75%;
 }
 
-mat-card{
-  margin-bottom:10px;
-}
 
 .mat-card-title{
   font-size:140%;
@@ -35,4 +32,13 @@ mat-card{
 
 .idea-button-icon{
   font-size:130%;
+}
+
+.open-modal-icon{
+  font-size:120%;
+  z-index: 0;
+  color:#777;
+  position: absolute;
+  top: 5%;
+  right: 2%;
 }
