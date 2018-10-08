@@ -8,16 +8,35 @@
 }
 
 .top{
-    height: 50%;
+    height: 100%;
     background-image: url(../../../assets/img/back.png);
     background-size:cover;
     background-position:center;
 }
 
+.auth-submit {
+    font-weight: 600;
+    font-size: 15px;
+}
+
 h2, h4 {
     text-align: center;
 }
-.auth-submit {
-    position: relative;
-    left: 38%;
+
+.redirecting-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-btn {
+    margin-top: 2%;
+    color: #8c8c8c;
+    font-size: 15px;
+    transition: all 0.2s ease-in;
+}
+
+.registration-btn:hover {
+    color: #484848;
+    text-decoration: none;
 }
